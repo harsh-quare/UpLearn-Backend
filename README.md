@@ -124,7 +124,7 @@ server/
    Create a `.env` file in the root directory:
    ```plaintext
    PORT=4000
-   MONGODB_URI=your_mongodb_uri
+   MONGODB_URL=your_mongodb_url
    JWT_SECRET=your_jwt_secret
    CLOUDINARY_CLOUD_NAME=your_cloud_name
    CLOUDINARY_API_KEY=your_api_key
@@ -140,6 +140,13 @@ server/
    ```
 
 ---
+
+## Database
+
+The database for the platform is built using MongoDB, a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data. The database stores the course content, user data, and other relevant information related to the platform.
+
+<img width="736" height="384" alt="schema" src="https://github.com/user-attachments/assets/f1525c3b-e8a8-45a8-a033-7e2026bd5eee" />
+
 
 ## API Design
 
